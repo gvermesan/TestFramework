@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.source       = { :http => "https://github.com/gvermesan/TestFramework/releases/download/v#{s.version.to_s}/MAF.zip" }    
     s.platform     = :ios
 
-    s.ios.vendored_frameworks = 'iOS/MAF.framework', 'iOS/MAF.framework/Frameworks/UseCase.framework', 'iOS/MAF.framework/Frameworks/Common.framework'
+    s.ios.vendored_frameworks = 'iOS/MAF.framework', 'iOS/MAF.framework/Frameworks/UseCase.framework', 'iOS/MAF.framework/Frameworks/Common.framework', 'iOS/MAF.framework/Frameworks/widgets.framework'
     s.swift_version = "5.0"
     s.ios.deployment_target  = '11.0'
 
