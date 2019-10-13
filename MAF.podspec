@@ -5,10 +5,11 @@ Pod::Spec.new do |s|
     s.homepage     = "https://github.com/gvermesan/TestFramework"
     s.license      = { :type => "MIT", :file => "LICENSE" }
     s.author           = { "Gabriel Vermesan" => "vermesan.gabriel@yahoo.com" }
-    s.source       = { :http => "https://github.com/gvermesan/TestFramework/releases/download/v#{s.version.to_s}/MAF.zip" }    
+    s.source       = { :http => "https://github.com/gvermesan/TestFramework/releases/download/v#{s.version.to_s}/MAF.zip" }  
+    #s.source       = { :http => 'file:' + '/Users/gabrielv/Downloads/MAF.zip' }      
     s.platform     = :ios
 
-    s.ios.vendored_frameworks = 'iOS/MAF.framework', 'iOS/UseCase.framework', 'iOS/Repository.framework', 'iOS/Common.framework', 'iOS/Widgets.framework', 'iOS/Storage.framework', 'iOS/NetworkService.framework', 'iOS/TokenStore.framework'
+    s.ios.vendored_frameworks = 'iOS/MAF.framework'
     s.swift_version = "5.0"
     s.ios.deployment_target  = "11.0"
 
