@@ -4,11 +4,11 @@ Pod::Spec.new do |s|
     s.summary      = "Mobile application framework for Whirlpool brands."
     s.homepage     = "https://github.com/gvermesan/TestFramework"
     s.license      = { :type => "MIT", :file => "LICENSE" }
-    s.author           = { "Gabriel Vermesan" => "gabriel_vermesan_gemini_solutions@whirlpool.com" }
+    s.author           = { "Gabriel Vermesan" => "vermesan.gabriel@yahoo.com" }
     s.source       = { :http => "https://github.com/gvermesan/TestFramework/releases/download/v#{s.version.to_s}/MAF.zip" }    
     s.platform     = :ios
 
-    s.ios.vendored_frameworks = 'iOS/MAF.framework', 'iOS/MAF.framework/Frameworks/UseCase.framework', 'iOS/MAF.framework/Frameworks/Common.framework', 'iOS/MAF.framework/Frameworks/widgets.framework'
+    s.ios.vendored_frameworks = 'iOS/MAF.framework', 'iOS/MAF.framework/Frameworks/UseCase.framework', 'iOS/MAF.framework/Frameworks/Common.framework', 'iOS/MAF.framework/Frameworks/Widgets.framework', 'iOS/MAF.framework/Frameworks/Storage.framework', 'iOS/MAF.framework/Frameworks/Repository.framework', 'iOS/MAF.framework/Frameworks/NetworkService.framework', 'iOS/MAF.framework/Frameworks/TokenStore.framework'
     s.swift_version = "5.0"
     s.ios.deployment_target  = '11.0'
 
