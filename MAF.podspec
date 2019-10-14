@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "MAF"
-    s.version      = "1.0.3"
+    s.version      = "1.0.3.1"
     s.summary      = "Mobile application framework for Whirlpool brands."
     s.homepage     = "https://github.com/gvermesan/TestFramework"
     s.license      = { :type => "MIT", :file => "LICENSE" }
