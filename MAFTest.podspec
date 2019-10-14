@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-    s.name         = "MAF"
+    s.name         = "MAFTest"
     s.version      = "1.0.3.2"
     s.summary      = "Mobile application framework for Whirlpool brands."
     s.homepage     = "https://github.com/gvermesan/TestFramework"
