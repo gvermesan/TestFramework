@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "MAFTest"
-    s.version      = "1.0.3.2"
+    s.version      = "1.0.3.3"
     s.summary      = "Mobile application framework for Whirlpool brands."
     s.homepage     = "https://github.com/gvermesan/TestFramework"
     s.license      = { :type => "MIT", :file => "LICENSE" }
@@ -9,7 +9,8 @@ Pod::Spec.new do |s|
     #s.source       = { :http => 'file:' + '/Users/gabrielv/Downloads/MAF.zip' }      
     s.platform     = :ios
 
-    s.ios.vendored_frameworks = 'iOS/MAF.framework'
+    s.ios.vendored_frameworks = 'iOS/Common.framework', 'iOS/MAF.framework', 'iOS/NetworkService.framework', 'iOS/Repository.framework', 'iOS/Storage.framework', 'iOS/TokenStore.framework', 'iOS/UseCase.framework', 'iOS/Widgets.framework'
+
     s.swift_version = "5.0"
     s.ios.deployment_target  = "11.0"
 
