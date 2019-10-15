@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
     s.homepage     = "https://github.com/gvermesan/TestFramework"
     s.license      = { :type => "MIT", :file => "LICENSE" }
     s.author           = { "Gabriel Vermesan" => "vermesan.gabriel@yahoo.com" }
-    s.source       = { :http => "https://github.com/KeepSafe/ObjectiveRocksFramework/releases/download/v0.9.0.1/ObjectiveRocks.zip" }  
+    s.source       = { :http => "https://github.com/gvermesan/LibraryCache/releases/download/v1.0.3.3/MAF.zip" }  
     #s.source       = { :http => 'file:' + '/Users/gabrielv/Downloads/MAF.zip' }      
     s.platform     = :ios
 
