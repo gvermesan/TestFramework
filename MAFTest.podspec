@@ -24,5 +24,5 @@ Pod::Spec.new do |s|
     s.dependency "QRCodeReader.swift"
     s.dependency "RxSwift", '~> 4.5.0'
     s.dependency "RxCocoa", '~>  4.5.0'
-    s.dependency "Kingfisher", '~>  5.5.0'
+    s.dependency "SDWebImage"
 end
