@@ -5,8 +5,8 @@ Pod::Spec.new do |s|
     s.homepage     = "https://github.com/gvermesan/TestFramework"
     s.license      = { :type => "MIT", :file => "LICENSE" }
     s.author           = { "Gabriel Vermesan" => "vermesan.gabriel@yahoo.com" }
-    s.source       = { :http => "https://github.com/gvermesan/LibraryCache/releases/download/v1.0.3.3/MAF.zip" }  
-    #s.source       = { :http => 'file:' + '/Users/gabrielv/Downloads/MAF.zip' }      
+    s.source       = { :http => "https://github.com/gvermesan/TestFramework/releases/download/v#{s.version.to_s}/MAF.zip" }  
+
     s.platform     = :ios
 
     s.ios.vendored_frameworks = 'iOS/Common.framework', 'iOS/MAF.framework', 'iOS/NetworkService.framework', 'iOS/Repository.framework', 'iOS/Storage.framework', 'iOS/TokenStore.framework', 'iOS/UseCase.framework', 'iOS/Widgets.framework'
